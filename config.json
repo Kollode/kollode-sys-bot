@@ -1,0 +1,10 @@
+{
+  "token": "",
+  "adminUserId": 0,
+  "commands": {
+    "/top": {
+      "name": "Gets the list of running tasks",
+      "script": "./test.sh"
+    }
+  }
+}

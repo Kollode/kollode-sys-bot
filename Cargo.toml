@@ -1,0 +1,12 @@
+[package]
+name = "kollode-sys-bot"
+version = "0.1.0"
+authors = ["Patrick Kollodzik <patrick.kollodzik@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+futures="0.1"
+telegram-bot="0.6"
+tokio-core="0.1"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
